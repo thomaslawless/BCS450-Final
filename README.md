@@ -1,7 +1,7 @@
 # BCS450-Final
 final project for BCS 450
-Abdullah has claimed the curried function
-Tyler has claimed the polymorphic functions
+Abdullah has claimed the curried function.
+Tyler has claimed the polymorphic functions.
 
 Here is my idea for an approach, we create two classes. One will be a Course class that will have variables that describe courses
 
@@ -17,3 +17,7 @@ class HomeworkSchedule {
 I'll create a currying function that adds courses to the HomeworkSchedule class
 
 -Abdullah
+
+
+I have no idea what could be implemented in the form of a polymorphic function
+-Tyler

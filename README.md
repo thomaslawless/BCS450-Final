@@ -23,6 +23,6 @@ I'll create a currying function that adds courses to the HomeworkSchedule class
 
 I have no idea what could be implemented in the form of a polymorphic function.
 
-Maybe the polymorphic function could be the function that marks assignments as completed. One function could simply mark the assignment as completed and another could do the same but with added details such as the date it was completed, the time it was completed, or the grade/feedback.
+Maybe the polymorphic function could be the function that marks assignments as completed. One function could simply mark the assignment as completed and another could do the same but with added details such as the date it was completed, the time it was completed, or the grade/feedback. Homework assignments will need to be its own class to facilitate this.
 
 -Tyler

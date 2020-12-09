@@ -1,5 +1,5 @@
 package project450
 
-class HomeworkSchedule(var course: String) {
+class HomeworkSchedule(var course: List[Course]) {
 
 }

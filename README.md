@@ -22,7 +22,9 @@ I'll create a currying function that adds courses to the HomeworkSchedule class
 
 Homework.scala class has been updated and uploaded to main branch. USE THIS ONE!
 
-Added main.scala to main branch because it now contains test code and markHomeworkCompleted, which is a polymorphic function.
+Added main.scala to main branch because it now contains test code and markHomeworkCompleted (and its supporting functions), which is a polymorphic function.
+
+Are they pure? I have no idea.
 
 -Tyler
 

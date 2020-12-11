@@ -21,6 +21,7 @@ I'll create a currying function that adds courses to the HomeworkSchedule class
 -Abdullah
 
 Homework.scala class has been updated and uploaded to main branch. USE THIS ONE!
+
 Added main.scala to main branch because it now contains test code and markHomeworkCompleted, which is a polymorphic function.
 
 -Tyler

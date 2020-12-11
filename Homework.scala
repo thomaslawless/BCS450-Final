@@ -5,7 +5,7 @@ class Homework(var inputname: String, var inputDueDate: String)
   private var _dueDate=""
   private var _timeCompleted=0
   private var _dateCompleted=""
-  private var _grade=0
+  private var _grade=0.0:Double
   private var _completed = false
 
   //Name Getter and Setter
@@ -33,8 +33,8 @@ class Homework(var inputname: String, var inputDueDate: String)
   }
 
   //Grade getter and setter
-  def grade: Int = _grade
-  def grade_= (newValue:Int):Unit={
+  def grade: Double = _grade
+  def grade_= (newValue:Double):Unit={
     _grade = newValue
   }
 

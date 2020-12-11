@@ -20,11 +20,8 @@ I'll create a currying function that adds courses to the HomeworkSchedule class
 
 -Abdullah
 
-Homework class has been written and uploaded to TylersBranch
-
-I have no idea what could be implemented in the form of a polymorphic function.
-
-Maybe the polymorphic function could be the function that marks assignments as completed. One function could simply mark the assignment as completed and another could do the same but with added details such as the date it was completed, the time it was completed, or the grade/feedback. Homework assignments will need to be its own class to facilitate this.
+Homework.scala class has been updated and uploaded to main branch. USE THIS ONE!
+Added main.scala to main branch because it now contains test code and markHomeworkCompleted, which is a polymorphic function.
 
 -Tyler
 

@@ -9,7 +9,6 @@ object main {
   //completed. Integer is for setting the time the homework was completed. Grade is a double to enable differentiation between grade and time, has the added
   // bonus of allowing grades to be decimals.
   def markHomeworkComplete[A](homework: Homework, input: A): Unit = {
-    println(input.getClass.getSimpleName)
     if(input.getClass.getSimpleName == "Boolean") {
       homework.completed = true
     }
@@ -25,10 +24,12 @@ object main {
       homework.timeCompleted = extractInt(input)
       homework.completed = true
     }
-    else{
+    else if(input.getClass.getSimpleName != "Integer" && input.getClass.getSimpleName != "Double" && input.getClass.getSimpleName != "String" && input.getClass.getSimpleName != "Boolean"){
       println("Invalid input on function markHomeworkComplete")
+      sys.exit()
     }
     println(homework.name + " is now marked as completed.")
+
   }
   //Converts an object of type A into double, used in markHomeworkComplete.
   def extractDouble(x: Any): Double = x match {

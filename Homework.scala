@@ -43,6 +43,9 @@ class Homework(var inputname: String, var inputDueDate: String)
   def completed_= (newValue: Boolean):Unit={
     _completed = newValue
   }
+  //Returns weighted grade - Pure function
+  def calculateGrade(curve:Double): Double = double * _grade;
+    
 
 
 }

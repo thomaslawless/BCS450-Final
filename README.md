@@ -34,3 +34,7 @@ Any idea on what to do for the higher-order function? Could be used to update th
 -Tom
 
 I uploaded my Homeworkschedule class in here. abdulsbranch is fucked so I just uploaded it in here. I've come up with a good idea for a pure function, I'm going to create a method that returns the average of homeworks with completed grades. If either of you guys have any better ideas let me know. I'm also gonna get started on my one page paper and a uml diagram.
+
+I added a calculate grade function which should serve as a pure function. TO my understanding what a pure function is: its that an input is given and that input is not changed. 
+
+-Abdullah

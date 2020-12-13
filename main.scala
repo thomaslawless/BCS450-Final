@@ -1,6 +1,6 @@
 object main {
   def main(args: Array[String]):Unit = {
-    //Test code for markHomeworkComplete, feel free to remove
+    //Test code for markHomeworkComplete, feel free to remove, remove before shipping!
     val a = new Homework("Homework 1", "12/2")
     markHomeworkComplete(a, 1200)
   }

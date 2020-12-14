@@ -34,4 +34,9 @@ class HomeworkSchedule {
     }
     return false
   }
+  //higher order function to take the function getSize as a parameter?
+  def homeworkPerDay(a: Int, f: Int=>AnyVal): Unit {
+  println("On Average," + (f/7) + "assignments need to be completed per day."
+  }
+
 }

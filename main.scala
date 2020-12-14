@@ -5,6 +5,29 @@ object main {
     //Test code for markHomeworkComplete, feel free to remove, remove before shipping!
     val a = new Homework("Homework 1", "12/2")
     markHomeworkComplete(a, 1200)
+
+    val schedule = new HomeworkSchedule("test", "test")
+
+    println("Welcome to Homework Manager")
+    println("Please select a function:")
+    println("1. Add an Assignment" + "2. Retrieve Assignment" + "3. Total Assignemnts" + "4. Quit")
+    val input = readLine()
+    if (input == 1){
+      println("Please enter the A. Name of the Assignment B. DueDate")
+      val name = readLine()
+      val dueDate = readLine()
+      schedule.addHW(name, dueDate)
+    }if (input == 2){
+      println("Please enter the A. Name of the Assignment B. DueDate")
+      val name = readLine()
+      val dueDate = readLine()
+      schedule.getHW(name, dueDate)
+    }if (input == 3){
+      println("The total amount of assignments is" + schedule.getSize())
+    }if (input == 4){
+      System.exit(0)
+    }
+
   }
   //Polymorphic function, is used to mark homeworks as complete through a variety of means. Accepts boolean, string, double, or integer. Boolean is for a simple
   //marking of homework as completed. String is for setting the date completed and the homework as completed. Double is for setting the grade and the homework as
@@ -42,24 +65,6 @@ object main {
     case n: java.lang.Number => n.intValue()
   }
 
-
-  println("Welcome to Homework Manager")
-  println("Please select a function:")
-  println("1. Add an Assignment" + "2. Retrieve Assignment" + "3. Total Assignemnts" + "4. Quit")
-  val input = readLine()
-  if (input == 1){
-    println("Please enter the A. Name of the Assignment B. DueDate")
-    val name = readLine();
-    val dueDate = readLine();
-  }if (input == 2){
-    println("Please enter the A. Name of the Assignment B. DueDate")
-    val name = readLine();
-    val dueDate = readLine();
-  }if (input == 3){
-    println("The total amount of assignments is" + getSize())
-  }if (input == 4){
-    System.exit(0);
-  }
   }
 
 

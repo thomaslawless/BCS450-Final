@@ -36,7 +36,7 @@ class HomeworkSchedule {
   }
   //
   def homeworkPerDay(a: Int, f: Int=>AnyVal): Unit {
-  println(f/7)
+  println("On Average," + (f/7) + "assignments need to be completed per day."
   }
 
 }

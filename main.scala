@@ -1,3 +1,5 @@
+import scala.io.StdIn.readLine
+
 object main {
   def main(args: Array[String]):Unit = {
     //Test code for markHomeworkComplete, feel free to remove, remove before shipping!
@@ -39,6 +41,27 @@ object main {
   def extractInt(x: Any): Int = x match {
     case n: java.lang.Number => n.intValue()
   }
+
+
+  println("Welcome to Homework Manager")
+  println("Please select a function:")
+  println("1. Add an Assignment" + "2. Retrieve Assignment" + "3. Total Assignemnts" + "4. Quit")
+  val input = readLine()
+  if (input == 1){
+    println("Please enter the A. Name of the Assignment B. DueDate")
+    val name = readLine();
+    val dueDate = readLine();
+  }if (input == 2){
+    println("Please enter the A. Name of the Assignment B. DueDate")
+    val name = readLine();
+    val dueDate = readLine();
+  }if (input == 3){
+    println("The total amount of assignments is" + getSize())
+  }if (input == 4){
+    System.exit(0);
+  }
+  }
+
 
 
 }

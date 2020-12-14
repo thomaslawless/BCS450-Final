@@ -34,4 +34,9 @@ class HomeworkSchedule {
     }
     return false
   }
+  //
+  def homeworkPerDay(a: Int, f: Int=>AnyVal): Unit {
+  println(f/7)
+  }
+
 }
